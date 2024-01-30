@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-16x16.png">
+
+  <title>Mel Plens</title>
+
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #ffc702;
+      margin: 0;
+      /* Remova a margem padrão do corpo */
+      padding: 0;
+      /* Remova o preenchimento padrão do corpo */
+    }
+
+    .quadrado {
+      border-radius: 20px;
+      background-color: rgba(254, 253, 250, 0.644);
+      margin: 10px auto;
+      text-align: center;
+      width: 80%;
+      /* Altere a largura para ocupar mais espaço em telas menores */
+      max-width: 400px;
+      /* Defina uma largura máxima */
+      height: auto;
+      /* Altere a altura para se ajustar automaticamente ao conteúdo */
+      color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    img {
+      margin: 10px;
+      width: 200px;
+      height: 125px;
+      /* Ajuste a altura da imagem */
+      border-radius: 50%;
+      /* Um valor maior para um círculo completo */
+    }
+
+    .button-redes {
+      background-color: #ffc702;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 300px;
+      /* Defina uma largura máxima para os botões */
+      height: 40px;
+      color: #000000;
+      font-weight: bold;
+      border: none;
+      text-decoration: none;
+      padding: 0 !important;
+      margin: 5px 0;
+      /* Adicione um pouco de espaço entre os botões */
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: none;
+    }
+
+    /* Tornando responsivo */
+    @media screen and (min-width: 600px) {
+
+      /* Aplique estilos específicos para telas maiores */
+      .quadrado {
+        width: 50%;
+        /* Reduza um pouco a largura em telas maiores */
+      }
+    }
+
+    h1 {
+      margin-top: 0px;
+    }
+
+    h3 p {
+      margin-top: -5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="quadrado">
+    <img src="./images/logomeltech.png" alt="Foto de perfil Mel Plens">
+    <h1>Mel Plens</h1>
+    <h3>Full Stack Developer </h3>
+    <p>"Abelhas codificadoras polinizam o mundo digital, transformando códigos em néctar de inovação."</p><br>
+
+    <!-- Sem espaços extras -->
+    <a class="button-redes" href="https://github.com/MelPLens" target="_blank"><span>GitHub</span></a><br>
+    <a class="button-redes" href="https://www.linkedin.com/in/mel-plens-angelis-82261620b/"
+      target="_blank"><span>LinkedIn</span></a><br>
+    <a class="button-redes" href="https://www.instagram.com/codigosdamel?igsh=OGhybnJyMHI2NHI1"
+      target="_blank"><span>Instagram de Estudos</span></a><br>
+    <a class="button-redes" href="https://www.youtube.com/channel/UCIsmmXHPOO1sc0O6HApedBw"
+      target="_blank"><span>YouTube</span></a><br>
+  </div>
+</body>
+
+</html>
